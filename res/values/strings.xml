@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidExamples</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="androidzin_url">androidzin.blogspot.com</string>
+    <string name="androidzin_git">github.com/androidzin</string>
+    <string name="brunomateus_git">github.com/brunomateus</string>
+
+</resources>
