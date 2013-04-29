@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.os.Bundle;
+import android.text.InputFilter;
+import android.text.Spanned;
+import android.widget.EditText;
 import android.widget.SpinnerAdapter;
 
 import com.actionbarsherlock.app.ActionBar;
@@ -31,6 +34,24 @@ public class SpinnerIconActivity extends SherlockActivity implements OnNavigatio
 				R.layout.spinner_row, R.id.text, options);
 		
 		actionBar.setListNavigationCallbacks(mSpinnerAdapter, this);
+		
+		EditText t = (EditText) findViewById(R.id.teste);
+		InputFilter filter = new InputFilter() { 
+			
+			@Override
+			public CharSequence filter(CharSequence source, int start, int end,
+					Spanned dest, int dstart, int dend) {
+				for (int i = start; i < end; i++) { 
+					if (!Character.isLetter(source.charAt(i))) { 
+						return ""; 
+					} 
+				} 
+				return null;
+			} 
+		}; 
+		t.setFilters(new InputFilter[]{filter});
+
+	 
 	}
 
 	@Override

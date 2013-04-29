@@ -7,5 +7,9 @@
     <string name="androidzin_url">androidzin.blogspot.com</string>
     <string name="androidzin_git">github.com/androidzin</string>
     <string name="brunomateus_git">github.com/brunomateus</string>
+    <string name="generate">Generate Number</string>
+    <string name="no_numbers">No numbers generated</string>
+    <string name="example_spinner">Spinner Example</string>
+    <string name="example_random">Random example</string>
 
 </resources>
