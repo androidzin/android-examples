@@ -11,5 +11,9 @@
     <string name="no_numbers">No numbers generated</string>
     <string name="example_spinner">Spinner Example</string>
     <string name="example_random">Random example</string>
+    <string name="system_current_time">System Current Time</string>
+    <string name="difference">Difference</string>
+    <string name="calculate_difference">Calculate difference</string>
+    <string name="example_timepicker">Example Time Picker</string>
 
 </resources>

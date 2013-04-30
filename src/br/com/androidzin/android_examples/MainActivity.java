@@ -26,4 +26,10 @@ public class MainActivity extends SherlockActivity {
 		Intent i = new Intent(getApplicationContext(), RandomNumberActivity.class);
 		startActivity(i);
 	}
+	
+	public void startPick(View button)
+	{
+		Intent i = new Intent(getApplicationContext(), TimePickDifference.class);
+		startActivity(i);
+	}
 }

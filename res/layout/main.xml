@@ -18,5 +18,12 @@
         android:text="@string/example_random"
         android:onClick="startRandom"
     />
+    
+    <Button android:id="@+id/exampletTimePicker"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/example_timepicker"
+        android:onClick="startPick"
+    />
 
 </LinearLayout>
