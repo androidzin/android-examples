@@ -15,5 +15,7 @@
     <string name="difference">Difference</string>
     <string name="calculate_difference">Calculate difference</string>
     <string name="example_timepicker">Example Time Picker</string>
+    <string name="example_listwithicon">Example CustomListView</string>
+    <string name="list_is_empty">Empty list</string>
 
 </resources>

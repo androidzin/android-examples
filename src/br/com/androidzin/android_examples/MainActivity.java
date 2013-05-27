@@ -14,22 +14,33 @@ public class MainActivity extends SherlockActivity {
 		setContentView(R.layout.main);
 	}
 	
-	public void startSpinner(View button)
+	public void startExample(View button)
 	{
-		Intent i = new Intent(getApplicationContext(), SpinnerIconActivity.class);
+		Intent i = null;
+		switch(button.getId())
+		{
+			case R.id.exampleSpinner:
+				i = new Intent(getApplicationContext(), SpinnerIconActivity.class);
+			break;
+			
+			case R.id.exampletRandom:
+				i = new Intent(getApplicationContext(), SpinnerIconActivity.class);
+			break;
+			
+			case R.id.exampletTimePicker:
+				i = new Intent(getApplicationContext(), TimePickDifference.class);
+			break;
+			
+			case R.id.exampleListWithIcon:
+				i = new Intent(getApplicationContext(), ListWithIcon.class);
+			break;
+				
+				
+		}
 		startActivity(i);
 	}
 	
 	
-	public void startRandom(View button)
-	{
-		Intent i = new Intent(getApplicationContext(), RandomNumberActivity.class);
-		startActivity(i);
-	}
 	
-	public void startPick(View button)
-	{
-		Intent i = new Intent(getApplicationContext(), TimePickDifference.class);
-		startActivity(i);
-	}
+	
 }

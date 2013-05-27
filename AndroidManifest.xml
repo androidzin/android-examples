@@ -39,6 +39,11 @@
             android:label="@string/example_timepicker" >
         </activity>
         
+         <activity
+            android:name="br.com.androidzin.android_examples.ListWithIcon"
+            android:label="@string/example_listwithicon" >
+        </activity>
+        
         
     </application>
 
